@@ -10,3 +10,6 @@ Make sure you have installed [Unity](https://unity.com/) version 2019.4.40f1 or 
 1. Clone this repository to your local machine.
    ```bash
    git clone [https://github.com/username/project-name.git](https://github.com/AlvitoDian/UNITY-Tales-of-Sarip-Tambak-Oso.git)https://github.com/AlvitoDian/UNITY-Tales-of-Sarip-Tambak-Oso.git
+
+
+...
