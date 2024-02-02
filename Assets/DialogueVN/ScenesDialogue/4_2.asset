@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82af17d3df4ae7d44ad16c351e4c7f54, type: 3}
+  m_Name: 4_2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Apa yang terjadi bu ?!?!
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: f7c5d85ae9f8df24d93e5cacb9f63875, type: 3}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Aku tadi melihat kau tergeletak tak bernyawa di pinggir sungai nak, apa
+      yang sebenarnya terjadi nak ??
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Saya tadi berkelahi dengan Paidi pengawal dari Paman Ridwan, tetapi kalah...
+      sialan, dia mempunyai senjata andalan jagang baceman
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Apa yang terjadi sampai bisa sampai berkelahi..??
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Saya menagih tanggung jawab terhdapat Paman Ridwan atas hak milik Tambak
+      warisan dari ayah bu....
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Namun ternyata Paman Ridwan bersekongkol dengan antek belanda untuk kepentingannya
+      sendiri, sehingga pajak dari Tambak seluruhnya dibebankan kepada ibu
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Astaga ternyata semua ini karena Ridwan....
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Ngomong ngomong, bagaimana bisa saya hidup kembali bu...???
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Jadi begini nak....
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Pada saat kau masih kecil dan ayahmu masih hidup, ayahmu sempat bertapa
+      di Goa Tapa (daerah Sumber Manjing) selama beberapa waktu.
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: dan pada saat ayahmu pulang bertapa dari goa, ayahmu membawa sebongkah
+      kecil tanah merah "Lemah Abang"
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Lalu tanah tersebut dibelah dan diberikan pada Sarip dan Ibu untuk dimakan.
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Ayah bilang bahwa, nak Sarip akan dapat bangkit dari kematian selama ibu
+      masih hidup, meskipun terbunuh 1.000 kali sehari.
+    speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: ....
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: bea3ea5721a95184f83605b6e5fc738d, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Saya baru tahu hal tersebut
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Baiklah bu, aku masih ada urusan yang belum terselesaikan dengan Paidi
+      dan Paman Ridwan
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  background: {fileID: 0}
+  nextScene: {fileID: 0}
+  sceneToLoad: 4(Action)
+  levelUnlock: 0

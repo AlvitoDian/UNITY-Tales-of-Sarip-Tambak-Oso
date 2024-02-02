@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82af17d3df4ae7d44ad16c351e4c7f54, type: 3}
+  m_Name: 1Epilogue
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: (membawa kantong berisi barang) Teman-teman, saya tahu hidup kita sulit.
+      Pajak dari antek Belanda semakin membuat kita kesulitan. Karena itu, saya membawa
+      bantuan untuk kita semua.
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: f4bd64de4682d1044b47c48a2d1f9c07, type: 3}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: ' Sarip, barang berharga ini dari mana?'
+    speaker: {fileID: 11400000, guid: 31ce82b7e7488d549a9ef9f3d9569af9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 31ce82b7e7488d549a9ef9f3d9569af9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: ' Saya tidak ingin memberikan beban tambahan kepada kalian dengan memberitahu
+      asal barang ini. Yang penting, kita bisa merasakan keadilan sejenak dan mememnuhi
+      kebutuhan sehari hari.'
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 31ce82b7e7488d549a9ef9f3d9569af9, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Yaampun terima kasih banyak, Sarip. Kami sangat terbantu.
+    speaker: {fileID: 11400000, guid: 31ce82b7e7488d549a9ef9f3d9569af9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 31ce82b7e7488d549a9ef9f3d9569af9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  background: {fileID: 21300000, guid: d19b6e8b14f13e64c96a23093e873c57, type: 3}
+  nextScene: {fileID: 0}
+  sceneToLoad: ChapterSelect
+  levelUnlock: 3

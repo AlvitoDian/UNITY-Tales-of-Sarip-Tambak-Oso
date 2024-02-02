@@ -1,0 +1,82 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class SelectionManager : MonoBehaviour
+{   
+
+    public static SelectionManager Instance{get;set;}
+
+    public bool onTarget;
+ 
+    public GameObject interaction_Info_UI;
+    Text interaction_text;
+
+    public GameObject itemCount;
+    Text itemCountText;
+
+    private int collectedItemCount = 0;
+    private int targetItemCount = 4;
+
+    private void Start()
+    {   
+        onTarget =  false;
+        interaction_text = interaction_Info_UI.GetComponent<Text>();
+        itemCountText = itemCount.GetComponent<Text>();
+    }
+
+    private void Awake()
+    {
+        if(Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+ 
+    void Update()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if (Physics.Raycast(ray, out hit))
+        {
+            var selectionTransform = hit.transform;
+
+            InteractableObject interactable = selectionTransform.GetComponent<InteractableObject>();
+ 
+            if (interactable && interactable.playerInRange)
+            {   
+                onTarget =  true;
+
+                interaction_text.text = interactable.GetItemName();
+                interaction_Info_UI.SetActive(true);
+            }
+            else // Jika dia mengarahkan pada "objek" yang tidak mempunyai InteractableObject
+            {   
+                onTarget =  false;
+                interaction_Info_UI.SetActive(false);
+            }
+
+        }
+        else // Jika dia mengarahkan pada kekosongan
+        {
+            interaction_Info_UI.SetActive(false);
+        }
+    }
+
+    public void UpdateItemCount(int collected)
+    {
+        collectedItemCount++;
+        itemCountText.text = "" + collectedItemCount;
+        if (collectedItemCount >= targetItemCount)
+            {   
+                SceneManager.LoadScene("1(Epilogue)");
+                Debug.Log("Semua item telah terkumpul!");
+            }
+    }
+}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad2d966627d7c54593d2d114d42b243, type: 3}
+  m_Name: Antek Belanda
+  m_EditorClassIdentifier: 
+  speakerName: Antek Belanda
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  sprites:
+  - {fileID: 21300000, guid: abd1b1b2315795a4eaadcdf2607382f5, type: 3}
+  prefab: {fileID: 8410105291525660884, guid: fa47ec78e19e5f3449fbf2de9c3d3318, type: 3}

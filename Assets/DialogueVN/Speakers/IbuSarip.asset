@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad2d966627d7c54593d2d114d42b243, type: 3}
+  m_Name: IbuSarip
+  m_EditorClassIdentifier: 
+  speakerName: Ibu Sarip
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  sprites:
+  - {fileID: 21300000, guid: 988b85c48da8f4a47810261e60930d53, type: 3}
+  prefab: {fileID: 8410105291525660884, guid: 248b1a4db948bfd46bb9e48f7df561d5, type: 3}

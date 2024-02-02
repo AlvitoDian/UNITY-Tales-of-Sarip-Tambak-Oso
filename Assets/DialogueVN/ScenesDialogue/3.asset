@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82af17d3df4ae7d44ad16c351e4c7f54, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Paman ridwan !!!, mengapa hak milik tambak masih ditangan ibu saya !!!,
+      karena hal itu ibu saya ditagih pajak oleh antek belanda !!!
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: d51d2594859bd6e46a81c3498e30ad77, type: 3}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: dan juga, mana keuntungan dari hasil usaha tambak !?!?! bukankah kesepakatannya
+      seperti itu ?!?!
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: 'Sarip, kau tak tahu apa yang sebenarnya terjadi. '
+    speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Aku tahu segalanya, Paman. Aku tahu bahwa kau membuat perjanjian rahasia
+      dengan Antek Belanda demi keuntungan pribadi. Ibu saya dan rakyat miskin menjadi
+      korban kelakuan kalian!
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Bagaimana mungkin kau tahu?
+    speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Lantas apa yang bisa kau lakukan? Kau hanya seorang pemuda naif!
+    speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Baiklah paman, kita selesaikan ini dengan cara yang seharusnya
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: (Sarip hanya memukul sekali tepat diwajah Paman Ridwam)
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Aduh, Sialan kau sarip
+    speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: (Paman Ridwan dengan cepat memanggil Paidi, pengawal setianya, untuk menghadapi
+      Sarip. Mereka berdua saling menatap, atmosfer dipenuhi ketegangan.)
+    speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 0
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Sebenernya aku tak ingin melakukan ini, tetapi boleh lah... aku juga ingin
+      mengukur kemampuanku denganmu
+    speaker: {fileID: 11400000, guid: bfd3f760314b4be44aced8a6bf1df979, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: bfd3f760314b4be44aced8a6bf1df979, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 1600, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d25b33336a65a02459cf240a15ab53a2, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  - text: Sialan, dia memanggil pengawalnya
+    speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7dde1340775dc7c4ab877c61b6722a61, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: bfd3f760314b4be44aced8a6bf1df979, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8c9e0b2604baf1b48a9b09746a8fddfd, type: 3}
+  background: {fileID: 21300000, guid: 877a395809e98fb4094666d7d7f262c7, type: 3}
+  nextScene: {fileID: 11400000, guid: 2a2ec35011f483f4cad6076a25dc016e, type: 2}
+  sceneToLoad: 
+  levelUnlock: 0
